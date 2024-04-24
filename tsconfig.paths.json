@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@fission-js/fission": [
+                "node_modules/@fission-js/fission/dist/client"
+            ],
+            "front/*": ["src/front/*"],
+            "*": ["src/*"]
+        }
+    }
+}
